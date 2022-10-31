@@ -4,8 +4,7 @@ body{
     background-color: #231942;
     font-family: 'Poppins', sans-serif;
     color: #fff;
-    display: flex;
-    justify-content: center;
+    text-align: center;
 }
 
 h1{
