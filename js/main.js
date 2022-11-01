@@ -5,8 +5,8 @@ const fetchAdvice = async () => {
 
     const idAdvice = data.slip.id
     const advice = data.slip.advice
-    document.getElementById('id-advice').innerHTML = `Advice: ${idAdvice}`
-    document.getElementById('advice').innerHTML = `${advice}`
+    document.getElementById('id-advice').innerHTML = `Advice # ${idAdvice}`
+    document.getElementById('advice').innerHTML = `"${advice}"`
 }
 
 fetchAdvice()
