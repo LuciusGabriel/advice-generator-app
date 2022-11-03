@@ -1,31 +1,43 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
+
+:root{
+    --light-cyan: hsl(193, 38%, 86%);
+    --neon-green: hsl(150, 100%, 66%);
+    --grayish-blue: hsl(217, 19%, 38%);
+    --dark-grayish-blue: hsl(217, 19%, 24%);
+    --dark-blue: hsl(218, 23%, 16%);
+}
 
 body{
-    background-color: #330152;
-    font-family: 'Poppins', sans-serif;
+    background-color: var(--dark-blue);
+    font-family: 'Manrope', sans-serif;
     color: #fff;
     text-align: center;
-}
-
-
-
-h3{
-    font-size: 12px;
-}
-p{
-    font-size: 30px;
-}
-main{
-    background: #232323;
-    width: 50%;
-    border-radius: 10px;
-    padding: 30px;
-    margin: 0 auto;
-}
-#wrapper{
     display: flex;
     align-items: center;
-    margin: auto 0;
+    justify-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+h3{
+    font-size: 10px;
+    color: var(--neon-green);
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 4px;
+}
+p{
+    font-size: 28px;
+    line-height: 1.5;
+    color: var(--light-cyan);
+}
+
+#wrapper{
+
+    background-color: var(--dark-grayish-blue);
+    width: 500px;
+    border-radius: 8px;
 }
 
 .attribution { font-size: 11px; text-align: center; }
