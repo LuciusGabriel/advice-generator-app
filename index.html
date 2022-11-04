@@ -2,24 +2,28 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon-32x32.png">
-  <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/style.css">
   
   <title>Frontend Mentor | Advice generator app</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-
-  </style>
 </head>
 <body>
-    <div id="wrapper">
-        <h3 class="id-advice"><!-- Advice ID goes here --></h3>
+    <div class="wrapper">
+        <h3 class="id-advice"></h3>
 
-        <p class="advice"><!-- Advice text goes here --></p>
+        <p class="advice"></p>
+        <picture>
+          <source media="(min-width: 768px)" srcset="img/pattern-divider-desktop.svg"/>
+          <img src="img/pattern-divider-mobile.svg" alt="divider" />
+        </picture>
+        <div>
+          <button onclick="fetchAdvice()">
+            <img src="img/icon-dice.svg" alt="" />
+          </button>
+        </div>
     </div>
     
 

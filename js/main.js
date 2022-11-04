@@ -1,4 +1,3 @@
-
 const fetchAdvice = async () => {
     const resultado = await fetch("https://api.adviceslip.com/advice")
     const data = await resultado.json()
