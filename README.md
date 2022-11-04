@@ -11,7 +11,7 @@
 **Deploy:** https://advice-generator-app-seven-pearl.vercel.app/
 
 **Imagens**
-![](https://github.com/LuciusGabriel/advice-generator-app/blob/main/Advice-generator.JPG?raw=true)
+![](https://github.com/LuciusGabriel/advice-generator-app/blob/main/assets/img/Advice-generator.JPG?raw=true)
 
 
 *Desafio proposto pelo site: https://www.frontendmentor.io/*
